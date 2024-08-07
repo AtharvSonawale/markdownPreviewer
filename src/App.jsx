@@ -34,7 +34,7 @@ function App() {
           <h2 className=' ps-3 pt-0 fw-bold'>Editor</h2>
           <textarea
             id="editor"
-            className=" vw-50 border bg-dark w-100 h-90 border-5 rounded-5 p-2 shadow-lg"
+            className="text-white vw-50 border bg-dark w-100 h-90 border-5 rounded-5 p-2 shadow-lg"
             rows="20"
             value={markdown}
             onChange={handleMarkdownChange}
